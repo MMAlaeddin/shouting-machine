@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <script src="js/jquery.js"></script>
-  <script src="js/scripts.js"></script>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
     <title>SHOUTING MACHINE!</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>This is a Shouting Machine!</h1>
-      <form>
-        <div class="col-md-6">
+      <h1>This is a Shouting Machine!</h1>
+      <form id="formOne">
+        <div class="form-group">
           <label for="greeting">Say Hello!</label>
           <input id="greeting" class="form-control" type="text">
-        </div>
-      </form>
-
+        </div>  
       <button id="submit" class="btn btn-success">Hit When Ready</button>
+      <p class="output"></p>
+      </form>
     </div>
-    
-</body>
+  </body>
 </html>
